@@ -1,0 +1,50 @@
+body{
+margin:0;
+height:100vh;
+background:linear-gradient(#5ecbff,#6be36b);
+display:flex;
+justify-content:center;
+
+font-family:Arial;
+
+    background-image: url("car2.jpeg");
+    background-size: cover;      
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+;
+}
+h1{
+color:white;
+font-size:40px;
+text-shadow:2px 2px black;
+}
+
+.car{
+width:400px;
+margin:auto;
+}
+
+.menu button{
+display:block;
+margin:10px auto;
+padding:12px 45px;
+font-size:18px;
+border:none;
+border-radius:20px;
+background:orange;
+color:white;
+box-shadow:2px 3px brown;}
+.menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.menu button:hover{
+background:#ffcc00;
+transform:scale(1.05);
+}
